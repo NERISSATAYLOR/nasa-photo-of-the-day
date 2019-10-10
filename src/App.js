@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="App">
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span>🚀</span>!
+
+        Have fun <span>🚀</span>!
       {photos && photos.map(photo => {
           return (
             <PhotoDisplay key={photo.date}
